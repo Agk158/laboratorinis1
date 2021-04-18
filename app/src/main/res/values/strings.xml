@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Laboratorinis_1</string>
+    <string name="app_name">Hello world</string>
+    <string name="button">Continue</string>
+    <string name="TextView">Interested?</string>
 </resources>
