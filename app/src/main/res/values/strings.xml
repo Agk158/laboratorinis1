@@ -2,5 +2,4 @@
     <string name="app_name">Hello world</string>
     <string name="button">Continue</string>
     <string name="TextView">Interested?</string>
-    <string name="button_2">A fan of green? Try me!</string>
 </resources>
