@@ -8,17 +8,18 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView tvMain;
+    TextView tvSecondary;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.tvMain = findViewById(R.id.tvMain);
+        this.tvSecondary = findViewById(R.id.tvSecondary);
     }
 
     public void OnBtnClick(View view) {
-        this.tvMain.setText("We got a lot to offer!");
+        this.tvSecondary.setText("We got a lot to offer!");
     }
 }
