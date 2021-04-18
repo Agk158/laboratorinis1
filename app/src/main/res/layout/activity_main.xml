@@ -43,4 +43,16 @@
         app:layout_constraintTop_toBottomOf="@+id/tvMain"
         app:layout_constraintVertical_bias="0.057" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="351dp"
+        android:layout_height="49dp"
+        android:text="@string/button_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSecondary"
+        app:layout_constraintVertical_bias="0.919"
+        android:onClick="OnBtnClick2"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
